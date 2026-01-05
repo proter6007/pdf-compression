@@ -7,7 +7,8 @@ For scenarios where large PDFs (e.g., 10MB+) need to be compressed to a specifie
 2. Dependency Installation:
 
 ```bash
-pip install PyPDF2==2.12.1 pdf2image pillow fpdf==1.7.2
+pip install -r requirements.txt
 ```
+
 
 3. Additional Dependency: Install Poppler (for Windows) and add its `bin` directory to the system environment variables (Download link: https://github.com/oschwartz10612/poppler-windows/releases)
